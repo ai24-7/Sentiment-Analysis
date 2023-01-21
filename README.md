@@ -9,24 +9,24 @@ You can use this model to predict the sentiment of movie comments. The result wh
 If you want to run dashboard locally and you are not familliar with docker, follow instrunctions below:
 
 First, it is recommended to create an isolated environment with :
-```
+```bash
 conda create --name YOUR_ENV_NAME 
 ```
 
 Second, you need to install packages using :
-```
+```bash
 conda install pip
 pip install -r requirements.txt
 ```
 
 Then, you need to run model.py :
-```
+```bash
 python model.py
 ```
 This will produce model pickle file.
 
 Finally, you can run the dashboard using streamlit command :
-```
+```bash
 streamlit run app.py
 ```
 
